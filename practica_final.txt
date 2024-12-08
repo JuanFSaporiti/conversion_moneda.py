@@ -1,0 +1,41 @@
+------------------------------------------------
+Algoritmo:
+1. Definir el valor actual del Euro y Dolar can respecto al Peso Mexicano. 
+2. Solicitar al usuario el tipo de conversion. 
+3. Solicitar al ususario el monto a convertir.
+4. Realizar la conversionutilizando el tipo de cambio correspndiente. 
+5. Mostrar el resultado de la conversion al usuario.
+-------------------------------------------------
+-------------------------------------------------
+Pseudocodigo:
+
+Inicio
+
+    # Paso1: Definir el valor actual del Euro y Dolar can respecto al Peso Mexicano.
+    Definir tipo_cambio_eur_a_mxn = 23.7
+    Definir tipo_cambio_usd_a_mxn = 20.75
+
+    # Paso2: Solicitar al usuario el tipo de conversion.
+    Mostrar mensaje: "Ingrese la monda origen para la conversion (EUR/USD): "
+
+    # Paso3: Solicitar al ususario el monto a convertir
+    Mostrar mensaje: "ingrese el monto a comvertir: "
+
+    # Paso4: Realizar la conversionutilizando el tipo de cambio correspndiente.
+
+    Si tipo_conversion == "EUR"
+        Calcular resultado = monto_a_converir * tipo_cambio_eur_a_mxn
+        Mostrar " El resultado de la conversion de EUR a MXN es:", resultado
+    Sino si tipo_conversion == "USD"
+        Calcular resultado = monto_a_convertir * tipo_cambio_usd_a_mxn 
+        Mostrar "El resultado de la conversion de USD a MXN es:", resultado
+    Sino
+        Mostrar: "No esta disponible este tipo de conversion actualmente"
+
+Fin
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+
+
